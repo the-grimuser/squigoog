@@ -1,0 +1,29 @@
+#document
+<!DOCTYPE html> 
+<html>
+<body>
+<script type=text/javascript>
+
+        var a = ["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+var b = ["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+var c = ["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+var d = ["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+var e = ["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+var f = ["1","2","3","4","5","6","7","8","9","a","b","c","d","e","f"];
+
+
+
+setInterval(function(){
+    let A = a[Math.floor(Math.random()* a.length)];
+    let B = b[Math.floor(Math.random()* b.length)];
+    let C = c[Math.floor(Math.random()* c.length)];
+    let D = d[Math.floor(Math.random()* d.length)];
+    let E = e[Math.floor(Math.random()* e.length)];
+    let F = f[Math.floor(Math.random()* f.length)];
+    
+		document.body.style.backgroundColor = '#' + A + B + C + D + E + F;
+}, 0.000006);
+    
+</script>
+</body>
+</html>
